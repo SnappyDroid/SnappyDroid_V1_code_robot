@@ -1,2 +1,7 @@
 # SnappyDroid_V1
-SnappyDroid.com
+  SnappyDroid.com
+
+#Special Thanks
+
+#License
+
