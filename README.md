@@ -14,7 +14,7 @@ Se você entende da linguagem C++ que é a linguagem que vamos utilizar neste pr
 
 *** Novamente lembrando, não é necessário que você seja um expert na tecnologia! Sempre que você manda alterações, elas serão analisadas. Portanto, se forem boas, serão aceitas, se não, vamos te dar dicas de como melhorar seu Codigo. *** 
 
-TODO TIPO DE IDEIA É BEM VINDA!
+TODO TIPO DE IDEIA É SEMPRE BEM VINDA!
 
 #Special Thanks
 
