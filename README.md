@@ -16,6 +16,10 @@ Se você entende da linguagem C++ que é a linguagem que vamos utilizar neste pr
 
 TODO TIPO DE IDEIA É SEMPRE BEM VINDA! Crie um #Issue# que vamos analisar com carinho. 
 
+#Arduino
+
+Para o protótipo inicial do SnappyDroid_V1, eu usei um Arduino MEGA 2560 ( https://www.arduino.cc/ ).
+
 #Special Thanks
 
 #License
