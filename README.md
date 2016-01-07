@@ -18,7 +18,7 @@ TODO TIPO DE IDEIA É SEMPRE BEM VINDA! Crie um #Issue# que vamos analisar com c
 
 Para o protótipo inicial do SnappyDroid_V1, eu usei um Arduino MEGA 2560 ( https://www.arduino.cc/ ).
 
-# Agradecimientos especiales ( Special Thanks )
+# Agradecimientos ( Special Thanks )
 
 #License
 
