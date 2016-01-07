@@ -1,8 +1,6 @@
-# SnappyDroid_V1
+#Maneiras de contribuir com o SnappyDroid_V1
 
 ![alt tag](http://plugnmake.com/wp-content/uploads/2015/09/github.jpg)
-
-#Maneiras de contribuir com o SnappyDroid_V1
 
 Para ajudar nesse PROJETO você não precisa ser o melhor no assunto! Afinal, muitas das vezes, é ajudando que você vai aprendendo mais e mais. Portanto, o único pré-requisito para ajudar é ter vontade ;)
 
