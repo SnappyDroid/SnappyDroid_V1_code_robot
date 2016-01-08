@@ -21,4 +21,6 @@ Para o protótipo inicial do SnappyDroid_V1, eu usei um Arduino MEGA 2560 ( http
 # Agradecimientos ( Special Thanks )
 
 #License
+![alt tag](https://www.arduino.cc/en/uploads/Main/cc-by-sa.jpg)
 
+  Creative Commons Attribution ShareAlike 3.0. (http://creativecommons.org/licenses/by-sa/3.0/legalcode)
