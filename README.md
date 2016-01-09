@@ -16,7 +16,9 @@ TODO TIPO DE IDEIA É SEMPRE BEM VINDA! Crie um #Issue# que vamos analisar com c
 
 #Arduino
 
-Para o protótipo inicial do SnappyDroid_V1, eu usei um Arduino MEGA 2560 ( https://www.arduino.cc/ ), um Display LCD 16x2 (http://img.filipeflop.com/files/download/Datasheet_Display_16x2.pdf)
+Para o protótipo inicial do SnappyDroid_V1 eu utilizei.
+  * 1 -  Arduino MEGA 2560 ( https://www.arduino.cc/ )
+  * 1 -  Display LCD 16x2 (http://img.filipeflop.com/files/download/Datasheet_Display_16x2.pdf)
 
 
 # Agradecimientos ( Special Thanks )
