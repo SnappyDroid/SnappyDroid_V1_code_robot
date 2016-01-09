@@ -27,6 +27,7 @@ Para o protótipo inicial do SnappyDroid_V1 eu utilizei.
 
 # Fontes de estudo
 
+ * https://www.arduino.cc/en/Tutorial/HelloWorld?from=Tutorial.LiquidCrystal
  * https://www.robocore.net/
  * http://www.labdegaragem.org/loja/
  * http://blog.filipeflop.com/wireless/esp8266-arduino-tutorial.html
