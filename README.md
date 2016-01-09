@@ -23,9 +23,14 @@ Para o protótipo inicial do SnappyDroid_V1 eu utilizei.
   * 
 
 
-# Agradecimientos e fontes de estudo ( Special Thanks ) 
+# Agradecimientos e 
 
+# Fontes de estudo ( Special Thanks ) 
+
+ * https://www.robocore.net/
+ * http://www.labdegaragem.org/loja/
  * http://blog.filipeflop.com/wireless/esp8266-arduino-tutorial.html
+ * 
 
 #License
 ![alt tag](https://www.arduino.cc/en/uploads/Main/cc-by-sa.jpg)
