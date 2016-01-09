@@ -18,10 +18,14 @@ TODO TIPO DE IDEIA É SEMPRE BEM VINDA! Crie um #Issue# que vamos analisar com c
 
 Para o protótipo inicial do SnappyDroid_V1 eu utilizei.
   * 1 -  Arduino MEGA 2560 ( https://www.arduino.cc/ )
-  * 1 -  Display LCD 16x2 (http://img.filipeflop.com/files/download/Datasheet_Display_16x2.pdf)
+  * 1 -  Display LCD 16x2 ( http://img.filipeflop.com/files/download/Datasheet_Display_16x2.pdf )
+  * 1 - Módulo WiFi ESP8266 Serial ( https://www.adafruit.com/datasheets/ESP8266_Specifications_English.pdf )
+  * 
 
 
-# Agradecimientos ( Special Thanks )
+# Agradecimientos e fontes de estudo ( Special Thanks ) 
+
+ * http://blog.filipeflop.com/wireless/esp8266-arduino-tutorial.html
 
 #License
 ![alt tag](https://www.arduino.cc/en/uploads/Main/cc-by-sa.jpg)
