@@ -23,9 +23,9 @@ Para o protótipo inicial do SnappyDroid_V1 eu utilizei.
   * 
 
 
-# Agradecimientos e 
+# Agradecimientos  ( Special Thanks ) 
 
-# Fontes de estudo ( Special Thanks ) 
+# Fontes de estudo
 
  * https://www.robocore.net/
  * http://www.labdegaragem.org/loja/
