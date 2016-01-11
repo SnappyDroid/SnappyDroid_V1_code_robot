@@ -38,3 +38,5 @@ Para o protótipo inicial do SnappyDroid_V1 eu utilizei.
 ![alt tag](https://www.arduino.cc/en/uploads/Main/cc-by-sa.jpg)
 
   Creative Commons Attribution ShareAlike 3.0. (http://creativecommons.org/licenses/by-sa/3.0/legalcode)
+  
+  
