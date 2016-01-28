@@ -40,11 +40,14 @@ void setup()
     lcd.backlight();
     delay(250);
     lcd.noBacklight();
-   delay(250);
+   
   }
   lcd.backlight(); //Ativa a luz de fundo
   lcd.setCursor(0, 0); //seta o cursor na coluna 0 linha 1
+  delay(2000);
+  
 }
+
  
 void VerificaDisplay(int AContador){
   if (AContador == 20000){
@@ -52,20 +55,24 @@ void VerificaDisplay(int AContador){
     float t = dht.readTemperature();
     lcd.clear();
     lcd.home ();
-    lcd.setCursor(0, 1);
+    lcd.setCursor(2, 0);
     lcd.print(t);
     lcd.printByte(8);
     lcd.print(" H:");
     lcd.print(h);
     lcd.print("%");
+    lcd.setCursor(0,2);
+    lcd.print("Muito Quente #CPBR9");
   }
 }
  
  
 void loop()  
 {
- 
+
   VerificaDisplay(20000);
   delay(1000);
+  
+  
  
 }
