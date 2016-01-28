@@ -21,7 +21,7 @@ void setup()
     lcd.setCursor(0, 2);//seta o cursor na coluna 0 linha 3
   lcd.print("Linha dois 123456789");
     lcd.setCursor(0, 3); //seta o cursor na coluna 0 linha 4
-  lcd.print("Linha tres 123456789"); 
+  lcd.print("Linha tres 123456789");  
  
 }
 
