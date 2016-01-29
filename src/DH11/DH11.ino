@@ -62,9 +62,13 @@ void VerificaDisplay(int AContador) {
     lcd.print(" H:");
     lcd.print(h);
     lcd.print("%");
-    lcd.setCursor(0, 2);
     if (t >= 25) {
-      lcd.print("Muito Quente #CPBR9");
+      lcd.setCursor(0, 1);
+      lcd.print(" Tem uma sugestao?");
+      lcd.setCursor(0, 2);
+      lcd.print("Participe do projeto");
+      lcd.setCursor(0, 3);
+      lcd.print("  SnappyDroid.com");
     } if(t <= 18) {
       lcd.print("Ate 25Graus e Legal");
     } if(t <=12 ){
