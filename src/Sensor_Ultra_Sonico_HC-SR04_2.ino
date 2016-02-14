@@ -33,20 +33,21 @@ void loop()
   inMsec = ultrasonic.convert(microsec, Ultrasonic::IN);
   //Exibe informacoes no serial monitor
   lcd.clear();
-  //delay(500);
-  //lcd.home ();
+  delay(500);
+  lcd.home ();
   lcd.setCursor(0, 0);
   lcd.print("Distancia em cm: ");
   lcd.setCursor(0, 1);
   lcd.print(cmMsec);
-  //lcd.setCursor(0, 1);
-  //lcd.print("Pol: ");
-  //lcd.println(inMsec);
-  //Serial.println(inMsec);
-  //lcd.clear();
+  lcd.setCursor(0, 1);
+  lcd.print("Pol: ");
+  lcd.println(inMsec);
+  Serial.println(inMsec);
+  lcd.clear();
 
   delay(500);
 
 }
+
 
 
