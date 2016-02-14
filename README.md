@@ -1,6 +1,5 @@
 #Maneiras de contribuir com o SnappyDroid_V1
 
-#![alt tag](http://plugnmake.com/wp-content/uploads/2015/09/github.jpg)
 ![alt tag](https://scontent-gru2-1.xx.fbcdn.net/hphotos-xtp1/v/t1.0-9/12401014_1092424790797368_7837349507028779672_n.jpg?oh=2c32947eea4635c0653605be55275269&oe=575F6C9B)
 
 
