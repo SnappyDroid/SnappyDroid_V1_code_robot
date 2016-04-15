@@ -1,16 +1,16 @@
 #include <Wire.h>  // Comes with Arduino IDE
 #include <LiquidCrystal_I2C.h>
 #include <DHT.h>
-#include <Ultrasonic.h>
+//#include <Ultrasonic.h>
 
 LiquidCrystal_I2C lcd(0x3F, 2, 1, 0, 4, 5, 6, 7, 3, POSITIVE);
 
 //Define os pinos para o trigger e echo
-  #define pino_trigger 4
-  #define pino_echo 5
+#define pino_trigger 4
+#define pino_echo 5
 
 //Inicializa o sensor nos pinos definidos acima
-Ultrasonic ultrasonic(pino_trigger, pino_echo);
+//Ultrasonic ultrasonic(pino_trigger, pino_echo);
 
 
 #if defined(ARDUINO) && ARDUINO >= 100
@@ -43,15 +43,15 @@ byte grau[8] = { B00001100,
 
 void setup()
 {
-  //Ultrason 
-    Serial.begin(9600);
+  //Ultrason
+  Serial.begin(9600);
 
   Serial.println("Lendo dados do sensor...");
   lcd.begin(20, 4);
   lcd.clear();
   lcd.backlight(); //Ativa a luz de fundo
   lcd.setCursor(0, 0); //seta o cursor na coluna 0 linha 1
-  //fim - Ultrason 
+  //fim - Ultrason
   lcd.begin(20, 4);
   dht.begin();
   for (int i = 0; i < 3; i++)
@@ -80,48 +80,26 @@ void VerificaDisplay(int AContador) {
     lcd.print(" H:");
     lcd.print(h);
     lcd.print("%");
-//    if (t >= 26) {
-//      lcd.setCursor(0, 1);
-//      lcd.print(" Tem uma sugestao?");
-//      lcd.setCursor(0, 2);
-//      lcd.print("Participe do projeto");
-//      lcd.setCursor(0, 3);
-//      lcd.print("  SnappyDroid.com");
-//    } if(t >= 23) {
-//      lcd.setCursor(0, 1);
-//      lcd.print("Gosta do meu visual?");
-//      lcd.setCursor(0, 2);
-//      lcd.print("Venha participar ;) ");
-//      lcd.setCursor(0, 3);
-//      lcd.print("  SnappyDroid.com");
-//    } if(t <=22 ){
-//    lcd.print("Muito Frio :(");
-//    }
+    if (t >= 26) {
+      lcd.setCursor(0, 1);
+      lcd.print(" Tem uma sugestao?");
+      lcd.setCursor(0, 2);
+      lcd.print("Participe do projeto");
+      lcd.setCursor(0, 3);
+      lcd.print("  SnappyDroid.com");
+    } if (t >= 23) {
+      lcd.setCursor(0, 1);
+      lcd.print("Gosta do meu visual?");
+      lcd.setCursor(0, 2);
+      lcd.print("Venha participar ;) ");
+      lcd.setCursor(0, 3);
+      lcd.print("  SnappyDroid.com");
+    } if (t <= 22 ) {
+      lcd.print("Muito Frio :(");
+    }
 
   }
 }
-
-//Mostra na tela - Ultrason
-//Le as informacoes do sensor, em cm e pol
-  float cmMsec, inMsec;
-  long microsec = ultrasonic.timing();
-  cmMsec = ultrasonic.convert(microsec, Ultrasonic::CM);
-  inMsec = ultrasonic.convert(microsec, Ultrasonic::IN);
-  //Exibe informacoes no serial monitor
-  lcd.clear();
-  //delay(500);
-  //lcd.home ();
-  lcd.setCursor(0, 1);
-  lcd.print("Distancia em cm: ");
-  //lcd.setCursor(0, 2);
-  //lcd.print(cmMsec);
-  //lcd.setCursor(0, 1);
-  //lcd.print("Pol: ");
-  //lcd.println(inMsec);
-  //Serial.println(inMsec);
-  //lcd.clear();
-  delay(500);
-  //Mostra na tela - Ultrason
 
 void loop()
 {
