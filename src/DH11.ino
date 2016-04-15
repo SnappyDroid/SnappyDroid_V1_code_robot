@@ -87,14 +87,15 @@ void VerificaDisplay(int AContador) {
       lcd.print("Participe do projeto");
       lcd.setCursor(0, 3);
       lcd.print("  SnappyDroid.com");
-    } if (t >= 23) {
+    } if (t > 23 && t < 26) {
       lcd.setCursor(0, 1);
       lcd.print("Gosta do meu visual?");
       lcd.setCursor(0, 2);
       lcd.print("Venha participar ;) ");
       lcd.setCursor(0, 3);
       lcd.print("  SnappyDroid.com");
-    } if (t <= 22 ) {
+    } if (t < 23 ) {
+      lcd.setCursor(0, 1);
       lcd.print("Muito Frio :(");
     }
 
