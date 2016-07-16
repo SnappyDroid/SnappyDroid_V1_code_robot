@@ -1,6 +1,6 @@
 #Maneiras de contribuir com o SnappyDroid_V1
 
-![alt tag](https://scontent-gru2-1.xx.fbcdn.net/hphotos-xtp1/v/t1.0-9/12401014_1092424790797368_7837349507028779672_n.jpg?oh=2c32947eea4635c0653605be55275269&oe=575F6C9B)
+![alt tag](http://blog.hostgator.com.br/wp-content/uploads/2016/01/Snappy-droid-blog.png)
 
 
 Para ajudar nesse PROJETO você não precisa ser o melhor no assunto! Afinal, muitas das vezes, é ajudando que você vai aprendendo mais e mais. Portanto, o único pré-requisito para ajudar é ter vontade ;)
