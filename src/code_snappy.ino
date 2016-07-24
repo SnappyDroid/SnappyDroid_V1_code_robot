@@ -1,7 +1,17 @@
+/*
+##################################################################
+# Author       : Sinesio Bittencourt
+# Email        : contato@sinesio.com.br or contact@sinesio.com.br
+# Info         :
+# Version      : 1.0 ( beta )
+# Project      : http://git.sinesio.com.br
+##################################################################
+*/
+
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 #include <DHT.h>
-//#include <Ultrasonic.h>
+//#include "Ultrasonic.h"
 
 LiquidCrystal_I2C lcd(0x3F, 2, 1, 0, 4, 5, 6, 7, 3, POSITIVE);
 
@@ -56,18 +66,20 @@ lcd.begin(20,4); // Initializes the interface to the LCD screen, and specifies t
 pinMode(trigPin, OUTPUT);
 pinMode(echoPin, INPUT);
 //fim - Ultrason
-  
+
   dht.begin();
   for (int i = 0; i < 3; i++)
   {
     lcd.backlight();
-    delay(250);
+    //delay(250);
+    delay(2000);
     lcd.noBacklight();
 
   }
   lcd.backlight(); //Ativa a luz de fundo
   lcd.setCursor(0, 0); //seta o cursor na coluna 0 linha 1
   delay(2000);
+
 
 }
 
@@ -84,44 +96,29 @@ void VerificaDisplay(int AContador) {
     lcd.print(" H:");
     lcd.print(h);
     lcd.print("%");
-    if (t >= 26) {
       lcd.setCursor(0, 1);
       lcd.print(" Tem uma sugestao?");
       lcd.setCursor(0, 2);
-      lcd.print("Participe do projeto");
+      lcd.print("Participe do projeto  ");
       lcd.setCursor(0, 3);
       lcd.print("  SnappyDroid.com");
-    } if (t >= 23 && t < 26) {
-      lcd.setCursor(0, 1);
-      lcd.print("Gosta do meu visual?");
-      lcd.setCursor(0, 2);
-      lcd.print("Venha participar ;) ");
+
+    }
+    if (distanceCm <= 20){
       lcd.setCursor(0, 3);
-      //lcd.print("  SnappyDroid.com");
-      lcd.setCursor(0,3); 
-      lcd.print("Distance: "); // Prints string "Distance" on the LCD
-      lcd.print(distanceCm); // Prints the distance value from the sensor
-      lcd.print(" cm");
-delay(10);
-    } if (t < 23 ) {
-      lcd.setCursor(0, 1);
-      //lcd.print("Participe do projeto");
-      lcd.print("  Join the project");
-      lcd.setCursor(0, 2);
-      lcd.print("  SnappyDroid.com");
-      lcd.setCursor(0, 3);
-      //lcd.print(" Muito Frio Aqui! :(");
       lcd.print("  Distance: "); // Prints string "Distance" on the LCD
       lcd.print(distanceCm); // Prints the distance value from the sensor
       lcd.print(" cm");
-    }
-
+      lcd.setCursor(0, 1);
+      lcd.print("Hi my name is Snappy");
+      lcd.setCursor(0, 2);
+      lcd.print(" What's your name?  ");
+        }
   }
-}
 
 void loop()
 {
-  digitalWrite(trigPin, LOW);
+digitalWrite(trigPin, LOW);
 delayMicroseconds(2);
 
 digitalWrite(trigPin, HIGH);
@@ -130,6 +127,8 @@ digitalWrite(trigPin, LOW);
 
 duration = pulseIn(echoPin, HIGH);
 distanceCm= duration*0.034/2;
-  VerificaDisplay(20000);
-  delay(1000);
+VerificaDisplay(20000);
+delay(2000);
+
+
 }
