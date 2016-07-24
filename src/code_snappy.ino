@@ -8,11 +8,7 @@
 # Project      : http://git.sinesio.com.br
 ##################################################################
 */
-
 #include <Wire.h>
-=======
-#include <Wire.h>  
->>>>>>> origin/master
 #include <LiquidCrystal_I2C.h>
 #include <DHT.h>
 //#include "Ultrasonic.h"
