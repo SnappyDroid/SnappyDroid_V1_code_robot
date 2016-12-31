@@ -19,9 +19,11 @@ TODO TIPO DE IDEIA É SEMPRE BEM VINDA! Crie um #Issue# que vamos analisar com c
 
 Para o protótipo inicial do SnappyDroid_V1 eu utilizei.
   * 1 -  Arduino MEGA 2560 ( https://www.arduino.cc/ )
-  * 1 -  Display LCD 16x2 ( http://img.filipeflop.com/files/download/Datasheet_Display_16x2.pdf )
-  * 1 -  Módulo WiFi ESP8266 Serial ( https://www.adafruit.com/datasheets/ESP8266_Specifications_English.pdf )
-  * 1 -  Módulo I2C com display LCD ( http://www.nxp.com/documents/data_sheet/PCF8574_PCF8574A.pdf )
+  * Display LCD 20x4 ( https://arduino-info.wikispaces.com/LCD-Blue-I2C )
+  * Módulo WiFi ESP8266 Serial ( https://www.adafruit.com/datasheets/ESP8266_Specifications_English.pdf )
+  * Módulo I2C com display LCD ( http://www.nxp.com/documents/data_sheet/PCF8574_PCF8574A.pdf )
+  * Sensor ultrassonico ( https://arduino-info.wikispaces.com/UltraSonicDistance )
+  
 
 
 # Agradecimientos  ( Special Thanks )
