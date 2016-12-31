@@ -24,7 +24,9 @@ Para o protótipo inicial do SnappyDroid_V1 eu utilizei.
   * Módulo I2C com display LCD ( http://www.nxp.com/documents/data_sheet/PCF8574_PCF8574A.pdf )
   * Sensor ultrassonico ( https://arduino-info.wikispaces.com/UltraSonicDistance )
   
+# Site do projeto
 
+* Snappy Droid ( https://www.snappydroid.com )
 
 # Agradecimientos  ( Special Thanks )
 
@@ -37,8 +39,7 @@ Para o protótipo inicial do SnappyDroid_V1 eu utilizei.
  * http://www.labdegaragem.org/loja/
  * http://blog.filipeflop.com/wireless/esp8266-arduino-tutorial.html
  * https://www.adafruit.com
- *
- *
+ 
 
 #License
  ![alt tag](https://www.arduino.cc/en/uploads/Main/cc-by-sa.jpg)
